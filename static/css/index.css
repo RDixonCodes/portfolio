@@ -9,10 +9,6 @@ body{
 .nav-link{
     margin-right:100px;
 }
-.fakeimg img{
-    height:300px;
-    opacity: 80%;
-}
 #section1{
     height:780px;
     background-image: url('http://www.southsoundtalk.com/wp-content/uploads/2019/04/Drone-Bridge-of-Glass-Edited.jpg');
@@ -25,8 +21,8 @@ body{
 }
 #section1 hr{
     border-top:solid white 1px;
-    width: 18%;
-    margin: 10px 0 -15px 580px;
+    width: 20%;
+    margin: 10px 0 -15px 565px;
 
 }
 #section1 h1{
@@ -63,6 +59,7 @@ body{
 #section2 h1{
     text-align: center;
     font-family: 'Merriweather Sans', sans-serif;
+    margin-top: 50px;
 }
 
 #section2 hr{
