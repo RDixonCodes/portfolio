@@ -139,6 +139,12 @@ li a {
     margin:20px;
 }
 
+/* hr {
+    width: 17%;
+    margin-left: 595px;
+    margin-top: -5px;
+} */
+
 .projects {
     display: flex;
     align-items: center;
