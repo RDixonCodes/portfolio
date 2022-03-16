@@ -1,140 +1,384 @@
-*{
-    padding:0;
-    margin:0;
+/* * {
+  padding: 0;
+  margin: 0;
 }
-body{
-    position: relative;
+body {
+  position: relative;
 }
 
-.nav-link{
-    margin-right:100px;
+.nav-link {
+  margin-right: 100px;
 }
-#section1{
-    height:780px;
-    background-image: url('http://www.southsoundtalk.com/wp-content/uploads/2019/04/Drone-Bridge-of-Glass-Edited.jpg');
-    opacity: 80%;
-    text-align: center;
-
+#section1 {
+  height: 780px;
+  background-image: url("http://www.southsoundtalk.com/wp-content/uploads/2019/04/Drone-Bridge-of-Glass-Edited.jpg");
+  opacity: 80%;
+  text-align: center;
 }
-#section1 h1, h2{
-    color:white;
+#section1 h1,
+h2 {
+  color: white;
 }
-#section1 hr{
-    border-top:solid white 1px;
-    width: 20%;
-    margin: 10px 0 -15px 565px;
-
+#section1 hr {
+  border-top: solid white 1px;
+  width: 20%;
+  margin: 10px 0 -15px 565px;
 }
-#section1 h1{
-    font-size: 100px;
-    font-family: 'Merriweather Sans', sans-serif;
+#section1 h1 {
+  font-size: 100px;
+  font-family: "Merriweather Sans", sans-serif;
 }
-#section1 h2{
-    margin-top: 35px;
-    font-family: 'Barlow Condensed', sans-serif;
-    font-weight: 100;
-
+#section1 h2 {
+  margin-top: 35px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 100;
 }
-#section1 svg{
-    margin-top:130px;
+#section1 svg {
+  margin-top: 130px;
 }
 .hvr-sink {
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-property: transform;
-    transition-property: transform;
-    -webkit-transition-timing-function: ease-out;
-    transition-timing-function: ease-out;
-  }
-  .hvr-sink:hover, .hvr-sink:focus, .hvr-sink:active {
-    -webkit-transform: translateY(8px);
-    transform: translateY(8px);
-  }
-
-#section2 h1{
-    text-align: center;
-    font-family: 'Merriweather Sans', sans-serif;
-    margin-top: 50px;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-sink:hover,
+.hvr-sink:focus,
+.hvr-sink:active {
+  -webkit-transform: translateY(8px);
+  transform: translateY(8px);
 }
 
-#section2 hr{
-    border-top:solid red 1px;
-    width: 10%;
-    margin: 10px 0 -8px 636px;
+#section2 h1 {
+  text-align: center;
+  font-family: "Merriweather Sans", sans-serif;
+  margin-top: 50px;
 }
-.archify{
-    text-align: center;
-    display: inline-block;
-    margin-left: 8px;
+
+#section2 hr {
+  border-top: solid red 1px;
+  width: 10%;
+  margin: 10px 0 -8px 636px;
 }
-.archify img{
-    height: 240px;
-    border-radius: 5px;
-    box-shadow: 5px 5px 8px black;
+.archify {
+  text-align: center;
+  display: inline-block;
+  margin-left: 8px;
+}
+.archify img {
+  height: 240px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 8px black;
 }
 .archify button {
-    margin-top: 20px;
-    box-shadow: 3px 3px 3px black;
+  margin-top: 20px;
+  box-shadow: 3px 3px 3px black;
 }
-.study{
-    text-align: center;
-    display: inline-block;
-    height: 240px;
-    margin-top: 70px;
-    margin-left: 15px;
-    margin-right: 15px;
+.study {
+  text-align: center;
+  display: inline-block;
+  height: 240px;
+  margin-top: 70px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
-.study img{
-    height: 240px;
-    border:solid black 1px;
-    border-radius: 5px;
-    box-shadow: 5px 5px 8px black;
+.study img {
+  height: 240px;
+  border: solid black 1px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 8px black;
 }
 .study button {
-    margin-top: 20px;
-    box-shadow: 3px 3px 3px black;
+  margin-top: 20px;
+  box-shadow: 3px 3px 3px black;
 }
-.trail{
-    text-align: center;
-    display: inline-block;
+.trail {
+  text-align: center;
+  display: inline-block;
 }
-.trail img{
-    height: 240px;
-    border-radius: 5px;
-    box-shadow: 5px 5px 8px black;
+.trail img {
+  height: 240px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 8px black;
 }
 .trail button {
-    margin-top: 20px;
-    box-shadow: 3px 3px 3px black;
+  margin-top: 20px;
+  box-shadow: 3px 3px 3px black;
 }
-#section4{
-    text-align: center;
-    background-color: antiquewhite;
-    
+.me {
+  display: inline-block;
+  border: 1px solid lightslategray;
+  border-radius: 5px;
+  margin-left: 500px;
 }
-#section3 img{
-    height: 200px;
+.me img {
+  border-right: 2px solid black;
 }
-#section4 h1{
-    margin-bottom: -10px;
+.me p {
+  display: inline-block;
+  padding: 5px;
 }
-#section4 hr{
-    border-top:solid red 1px;
-    margin-bottom: -13px;
-    margin-left: 640px;
-    width: 8%;
+#section4 {
+  text-align: center;
+  background-color: antiquewhite;
 }
-#section4 ul,li{
-    text-align: center;
-    margin: 30px -55px 10px 0px;
-    display: inline-block;
+#section3 img {
+  height: 200px;
+}
+#section4 {
+  background-color: antiquewhite;
+}
+#section4 h1 {
+  margin-bottom: -10px;
+}
+#section4 hr {
+  border-top: solid red 1px;
+  margin-bottom: -13px;
+  margin-left: 640px;
+  width: 8%;
+}
+#section4 ul,
+li {
+  text-align: center;
+  margin: 30px -55px 10px 0px;
+  display: inline-block;
 }
 
-#section4 a{
-    color:black;
+#section4 a {
+  color: black;
+} */
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+:root {
+    --gray-text: rgb(99, 108, 116);
+    --dark-gray: rgb(57, 60, 65);
+    --mid-gray: rgb(92, 98, 105);
+}
+
+/* NAVBAR SECTION */
+
+#mobile-nav {
+    display: none;
+}
+
+.nave-bar{
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+}
+
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+    list-style: none;
+    height:10vh;
+    background-color: rgba(100, 100, 100, 0.2);
+}
+li a {
+    display: block;
+    color: var(--mid-gray);
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+#name {
+    color: var(--blue-text);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* HERO SECTION */
+
+.container {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.image-container {
+    position: relative;
+    background-image: url('/images/tacomaPic.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width:100%;
+    margin-top: 0vh;
+    animation: scale 15s;
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+.overlay {
+    position:absolute;
+    height:100%;
+    width:100%;
+    top: 0;
+    left:0;
+    background:rgba(0, 0, 0, 0.1);
+    z-index:1;
+    
+}
+.hero-text {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    position: absolute;
+    top: 35%;
+    left:10%;
+    font-size: 25px;
+    color: whitesmoke;
+    text-transform: uppercase;
+    z-index: 2;
+}
+.firstWord{
+    color:wheat;
+}
+
+.resume-cta {
+    border: 2px solid wheat;
+    width: 175px;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.resume-text {
+    color: whitesmoke;
+}
+
+.resume-cta:hover {
+    background-color: rgb(100, 100, 100, 0.4)
+} 
+
+/* PROJECTS SECTION */
+
+.project-container {
+    width: 100%;
+    height: auto;
+}
+
+.project-header {
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:20px;
+}
+
+.projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+}
+
+.archify {
+    width: 350px;
+    height: 350px;
+    background: white;
+    position: relative;
+    box-shadow: -15px 7px 10px rgb(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url('/images/arch2.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.studyBuddy {
+    width: 350px;
+    height: 350px;
+    background: white;
+    position: relative;
+    box-shadow: -15px 7px 10px rgb(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url('/images/studyPic.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.trailBuddy {
+    width: 350px;
+    height: 350px;
+    background: white;
+    position: relative;
+    box-shadow: -15px 7px 10px rgb(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url('/images/hikingPic.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.text-container {
+    position: absolute;
+    height: 75px;
+    width:100%;
+    z-index: 2;
+    left: 0;
+    bottom: 0;
+    background-color: white;
+    overflow: hidden;
+}
+
+.text-container:hover {
+    height: 250px;
+}
+
+.name {
+    margin-top: 10px;
+    margin-left: 5px;
+    color: var(--dark-gray);
+    font-size: 2rem;
+}
+
+.content {
+    padding: 25px 5px;
+    color: var(--mid-gray);
+}
+
+.button {
+    border: 3px solid rgb(69, 114, 238);
+    border-radius: 5px;
+    width: 160px;
+    box-shadow: -15px 7px 30px rgba(0,0,0,0.2);
+    padding: 15px;
+    margin-left: 5px;
+    margin-bottom: 50px;
+}
+
+h3 {
+    color: rgb(32, 35, 219);
 }
