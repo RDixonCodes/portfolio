@@ -1,6 +1,6 @@
 # Portfolio
 - This is my personal portfolio site.
-- It is full responsive and mobile friendly.
+- It is fully responsive and mobile friendly.
 
 # Landing page
 
