@@ -1,6 +1,7 @@
 # Portfolio
 - This is my personal portfolio site.
 - It is fully responsive and mobile friendly.
+- Check it out @ https://main.d3v40z4gwa5cg0.amplifyapp.com 
 
 # Landing page
 
