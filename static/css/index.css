@@ -257,6 +257,14 @@ h3 {
     background-position: center;
 }
 
+.about-title{
+    width: 80%;
+    font-size: 2rem;
+}
+hr{
+    width: 71%;
+    margin:10px 0;
+}
 .about-text {
     height: auto;
     width: 40%;
