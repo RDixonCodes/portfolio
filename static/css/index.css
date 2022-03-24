@@ -266,11 +266,19 @@ h3 {
 
 /* CONTACT SECTION */
 
+.contact-header {
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom:-200px;
+}
 .social-icons {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 2rem;
+    font-size: 2.5rem;
     width: 30%;
     margin: 25% 35%;
     padding-top: 30px;
