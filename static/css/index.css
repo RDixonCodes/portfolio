@@ -5,7 +5,9 @@
     padding:0;
     box-sizing: border-box;
 }
-
+html {
+    scroll-behavior: smooth;
+}
 :root {
     --gray-text: rgb(99, 108, 116);
     --dark-gray: rgb(57, 60, 65);
