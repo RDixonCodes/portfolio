@@ -5,9 +5,6 @@
     padding:0;
     box-sizing: border-box;
 }
-html {
-    scroll-behavior: smooth;
-}
 :root {
     --gray-text: rgb(99, 108, 116);
     --dark-gray: rgb(57, 60, 65);
@@ -28,6 +25,7 @@ html {
 
 html{
     font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
 }
 
 a {
@@ -226,7 +224,7 @@ li a {
     width: 160px;
     box-shadow: -15px 7px 30px rgba(0,0,0,0.2);
     padding: 15px;
-    margin-left: 5px;
+    margin-left: 10px;
     margin-bottom: 50px;
 }
 
