@@ -41,11 +41,21 @@ ul {
     height:10vh;
     background-color: rgba(100, 100, 100, 0.2);
 }
+
+
 li a {
     display: block;
     color: var(--mid-gray);
     text-decoration: none;
     font-size: 1.5rem;
+    transition: transform .2s;
+}
+
+#apps:hover, 
+#desc:hover, 
+#contact:hover {
+    color: rgb(46, 44, 44);
+    transform: scale(1.1);
 }
 #name {
     color: var(--blue-text);
@@ -136,14 +146,8 @@ li a {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin:20px;
+    margin:20px; 
 }
-
-/* hr {
-    width: 17%;
-    margin-left: 595px;
-    margin-top: -5px;
-} */
 
 .projects {
     display: flex;
@@ -178,7 +182,7 @@ li a {
     background-position: center;
 }
 
-.trailBuddy {
+/* .trailBuddy {
     width: 350px;
     height: 350px;
     background: white;
@@ -189,9 +193,9 @@ li a {
     background-image: url('/images/hikingPic.jpeg');
     background-size: cover;
     background-position: center;
-}
+} */
 
-/* .crwnClothing {
+.crwnClothing {
     width: 350px;
     height: 350px;
     background: white;
@@ -202,7 +206,7 @@ li a {
     background-image: url('/images/clothing.jpg');
     background-size: cover;
     background-position: center;
-} */
+}
 
 .text-container {
     position: absolute;
@@ -217,6 +221,8 @@ li a {
 
 .text-container:hover {
     height: 250px;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
 }
 
 .name {
@@ -227,18 +233,22 @@ li a {
 }
 
 .content {
-    padding: 25px 5px;
+    padding: 25px 10px;
     color: var(--mid-gray);
 }
 
 .button {
-    border: 3px solid var(--gray-text);
+    border: 2px solid var(--dark-gray);
     border-radius: 5px;
     width: 160px;
     box-shadow: -15px 7px 30px rgba(0,0,0,0.2);
-    padding: 15px;
+    padding: 13px;
     margin-left: 10px;
     margin-bottom: 50px;
+}
+
+.button:hover {
+    background-color: rgba(196, 192, 192, 0.594);
 }
 
 h3 {
@@ -287,27 +297,53 @@ hr{
 
 /* CONTACT SECTION */
 
+#contactme {
+    background-image: url("/images/tacomaPic.jpeg");
+    background-size: cover;
+    min-height: 100%;
+    opacity: 80%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+#contactme span  {
+    color: whitesmoke;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+
 .contact-header {
-    font-size: 3rem;
+    font-size: 3.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 20px;
     margin-top: 100px;
-    margin-bottom:-150px;
+    margin-bottom:-190px;
+    color: whitesmoke;
+}
+
+.social-icons i {
+    color: whitesmoke;
+    font-size: 3rem;
+    transition: transform .3s;
+}
+.email:hover, .github:hover, .linkedin:hover {
+    transform: scale(1.1);
 }
 .social-icons {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 2.5rem;
     width: 30%;
     margin: 25% 35%;
     padding-top: 30px;
 }
 
-i {
-    color: var(--dark-gray);
-}
 
 .footer-container {
     display: flex;
@@ -315,19 +351,47 @@ i {
     align-items: center;
 
 }
+
 .footer-title {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 10px;
-    margin-top: -100px;
+    margin-top: -130px;
+    color: whitesmoke;
+    font-size: larger;
 }
-.created-by {
-    margin-bottom: 50px;
+.createdby {
+    margin-bottom: 10px;
+    color: whitesmoke
 }
 
 .footer-container span {
     font-weight: 200;
+
+}
+#return {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#return a {
+    color: whitesmoke;
+    font-size: 40px;
+    margin-top: -20px;
+    padding-top: 10px;
+
+}
+ #return a {
+    transition: transform .2s;  
+}
+#return:hover {
+    transform: scale(1.1);
+}
+
+#return span {
+    text-transform: uppercase;
 }
 /* MOBILE VIEW */
 
@@ -346,10 +410,27 @@ i {
         bottom: 0;
         z-index: 5;
     }
-
+    .links ul{
+        height: 7vh;
+    }
     ul {
         background-color: rgb(243, 243, 243);
     }
+
+    .hero-text {
+        font-size: x-large;
+    }
+
+    .resume-cta {
+        width: 150px;
+        height: 70px;
+    }
+    
+    .resume-text {
+        color: whitesmoke;
+    }
+    
+
 
     .archify {
         width: 250px;
@@ -377,7 +458,7 @@ i {
         background-position: center;
     }
     
-    .trailBuddy {
+    /* .trailBuddy {
         width: 250px;
         height: 350px;
         background: white;
@@ -388,7 +469,7 @@ i {
         background-image: url('/images/hikingPic.jpeg');
         background-size: cover;
         background-position: center;
-    }
+    } */
 
     .crwnClothing {
         width: 250px;
@@ -401,6 +482,17 @@ i {
         background-image: url('/images/clothing.jpg');
         background-size: cover;
         background-position: center;
+    }
+
+    .crwnClothing h2 {
+    font-size: 30px;
+    }
+
+    .button {
+        height: 40px;
+        width: 130px;
+        font-size: 13px;
+        padding: 10px 10px;
     }
 
     .about-container {
@@ -422,15 +514,27 @@ i {
 
     .about-text {
         margin-left: 20px;
-        width: 100%;
+        width: 50%;
         font-size: .75rem;
+        justify-content: center;
+        padding-bottom: 15px;
+    }
+    .contact-header {
+        font-size: 40px;
     }
 
     .social-icons i{
         font-size: 2rem;
         padding: 10px;
-        margin-top: 10px;
+        margin-top: 40px;
         margin-left: -10px;
+    }
+    .footer-container {
+        padding-bottom:30px;
+    }
+
+    #return {
+        display: none;
     }
 
 }
